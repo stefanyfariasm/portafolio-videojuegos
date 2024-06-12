@@ -11241,7 +11241,7 @@ header.masthead .masthead-heading {
 .team-member img {
   width: 8rem;
   height: 8em;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border: 0.3rem solid rgba(255, 200, 0, 0.9);
 }
 .team-member h4, .team-member .h4 {
   
