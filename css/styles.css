@@ -10838,7 +10838,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 2rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -10866,8 +10866,8 @@ p {
 }
 
 .btn-social {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 2rem;
+  width: 2rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -11239,12 +11239,12 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .team-member img {
-  width: 9rem;
-  height: 9em;
+  width: 8rem;
+  height: 8em;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4, .team-member .h4 {
-  margin-top: 1.5rem;
+  
   margin-bottom: 0;
 }
 
