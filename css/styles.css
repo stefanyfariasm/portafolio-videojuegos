@@ -1285,6 +1285,11 @@ progress {
     width: 45%;
   }
 
+  .col-lg-20 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
   .col-lg-10 {
     flex: 0 0 auto;
 
@@ -10957,6 +10962,20 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
+.arquitectura{
+  display: flex;
+
+  justify-content:center;
+}
+.tecno{
+  padding-right: 5rem;
+  padding-left: 5rem;
+  background-color:linen;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
