@@ -8035,6 +8035,32 @@ textarea.form-control-lg {
   text-align: right !important;
 }
 
+.scroll-arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: background-color 0.3s, transform 0.3s;
+  transform: rotate(180deg); /* Rotar la flecha */
+}
+
+.scroll-arrow:hover {
+  background-color: #1a73e8;
+  color: white;
+  transform: rotate(180deg) translateY(-5px); /* Mantener la rotación al hacer hover */
+}
+
+.scroll-arrow:active {
+  transform: rotate(180deg) translateY(2px); /* Mantener la rotación al hacer clic */
+}
 .text-center {
   text-align: center !important;
 }
