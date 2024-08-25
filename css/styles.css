@@ -1014,6 +1014,38 @@ progress {
   .offset-sm-11 {
     margin-left: 91.66666667%;
   }
+
+
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.schedule-table th, .schedule-table td {
+    border: 1px solid #e976b5;
+    padding: 8px;
+    text-align: left;
+}
+.schedule-table th {
+    background-color: #fdcbf2;
+    font-weight: bold;
+}
+.schedule-table td {
+    vertical-align: top;
+    
+}
+.task-section {
+    margin-top: 50px;
+}
+.task-section h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.schedule-table a {
+  color: #66067e; 
+  
+}
   .g-sm-0,
   .gx-sm-0 {
     --bs-gutter-x: 0;
